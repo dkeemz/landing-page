@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    background-color: #aaa;
+    background-color: #eee;
     
 }
 h3,h2{
@@ -10,8 +10,13 @@ h3,h2{
 #desc h3, #desc{
     text-align: left;
     margin: 0px 0px 5px 0px;
-    background-color: antiquewhite;
+    background-color: #eee;
     padding: 25PX;
+}
+.sel-btn{
+    background-color: orange;
+    color: #fff;
+    padding: 5px;
 }
 header{
     display: flex;
@@ -76,7 +81,7 @@ header #nav-bar #nav-bar-ul .nav-link{
 a{
     justify-content: space-between;
     padding:15px;
-    background-color: orange;
+    /* background-color: orange; */
     text-decoration: none;
     background-color: orange;
     color: #fff;
@@ -113,4 +118,40 @@ section{
     flex-direction: row;
     padding: 20px;
     margin: 5px;
+}
+#selection div{
+    border: 2px solid #aaa;
+    margin: 2px;
+    padding: 5px;
+}
+#selection div h3:first-child{
+    background-color: #aaa;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #aaa;
+    width: 600px;
+    text-align: right;
+    padding: 20px;
+}
+#footer p{
+    margin-top: 15px;
+    background-color: #aaa;
+}
+#footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #aaa;
+    /* padding: 10px; */
+}
+#footer ul li{
+    margin-top:10px ;
+    text-decoration: none;
+    list-style: none;
+    
+}
+#footer ul li a{
+    background-color: #aaa;
 }

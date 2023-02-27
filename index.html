@@ -49,8 +49,8 @@ Your product landing page should utilize CSS flexbox at least once
     </header>
     <div id="main">
         <h2>Handcrafted, home-made masterpieces</h2>
-        <form id="form" action="">
-            <input id="email" type="email" placeholder="Enter your Email address" required> <br>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <input id="email" type="email" name="email" placeholder="Enter your Email address" required> <br>
             <input id="submit" type="submit" placeholder="Get Started" value="Get Started">
         </form>
         <section id="desc">
@@ -78,7 +78,7 @@ Your product landing page should utilize CSS flexbox at least once
                     Lorem ipsum.
                     Lorem ipsum dolor.
                     Lorem ipsum.</p> <br>
-                    <input type="button" value="SELECT"> 
+                    <input class="sel-btn" type="button" value="SELECT"> 
             </div>
             <div>
             <h3>BASS TROMBONE</h3>    
@@ -88,7 +88,7 @@ Your product landing page should utilize CSS flexbox at least once
                 Lorem ipsum dolor.
                 Lorem ipsum.</p>
                 <br>
-                <input type="button" value="SELECT"> 
+                <input class="sel-btn"  type="button" value="SELECT">
             </div>
             <div>    
             <h3>VALVE TROMBONE</h3>
@@ -99,9 +99,17 @@ Your product landing page should utilize CSS flexbox at least once
                 Lorem ipsum dolor.
                 Lorem ipsum.</p>
                 <br>
-                <input type="button" value="SELECT"> 
+                <input type="button" class="sel-btn"  value="SELECT"> 
             </div>    
         </section>
+        <footer id="footer">
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <p>Copyright 2016, Original Trombones</p>
+        </footer>
     </div>
 </body>
 </html>
