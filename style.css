@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header #header-img{
+    width: 300px;
+}
+header #nav-bar #nav-bar-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header #nav-bar #nav-bar-ul .nav-link{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+a{
+    justify-content: space-between;
+    padding:10px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    padding:10px;
+    background-color: #aaa;
+    color: #fff;
+}
