@@ -1,11 +1,62 @@
 *{
     margin: 0;
+    background-color: #aaa;
+    
 }
-
+h3,h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+#desc h3, #desc{
+    text-align: left;
+    margin: 0px 0px 5px 0px;
+    background-color: antiquewhite;
+    padding: 25PX;
+}
 header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+#form #email{
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+    height: 20px;
+    /* background-color: orange; */
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 500ms;
+    margin: 5px;
+    padding: 5PX;
+    text-align: center;
+}
+#form #email::placeholder{
+    color:#fff;
+}
+#form #submit{
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+    height: 30px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 500ms;
+    padding: 5PX;
+}
+#form #submit:hover{
+    background-color: orangered;
+    transition: 500ms;
 }
 
 header #header-img{
@@ -24,23 +75,42 @@ header #nav-bar #nav-bar-ul .nav-link{
 }
 a{
     justify-content: space-between;
-    padding:10px;
-    background-color: aliceblue;
+    padding:15px;
+    background-color: orange;
     text-decoration: none;
-    color: #000;
+    background-color: orange;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 500ms;
 }
 a:hover{
-    padding:10px;
-    background-color: #aaa;
+    padding:15px;
+    background-color: orangered;
+    transition: 500ms;
     color: #fff;
 }
 #main{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 600px;
+    padding: 15px;
+    width: 700px;
     justify-content: space-evenly;
     align-content: space-evenly;
-    background-color: #234;
+    /* background-color: #234; */
     align-items: center;
+}
+
+section{
+    padding: 10px;
+    margin: 5px;
+}
+#selection{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 5px;
 }
