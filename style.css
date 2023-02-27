@@ -186,3 +186,148 @@ section{
     background-color: #aaa;
     color: #000;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 15px;
+        width: auto;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        /* background-color: #234; */
+        align-items: center;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #aaa;
+        width: auto;
+        text-align: right;
+        padding: 20px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    #selection{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 5px;
+        width: auto;
+        min-height: auto;
+    }
+    
+    #selection div .sel-btn{
+        background-color: orange;
+        color: #000;
+        padding: 10px;
+        align-self: center;
+        margin-top: 35px;
+        justify-content: flex-end;
+        transition: 500ms;
+    }
+    #form #submit{
+        width: 100px;
+        justify-self: center;
+        align-self: center;
+        height: 30px;
+        background-color: orange;
+        color: #fff;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 15px;
+        transition: 500ms;
+        padding: 5PX;
+    }
+    #nav-bar{
+        /* display: block; */
+    }
+    header #nav-bar #nav-bar-ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+    header #header-img{
+        width: 10px;
+        /* display: block; */
+    }
+    
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #aaa;
+        width: auto;
+        text-align: right;
+        padding: 20px;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    #selection{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 5px;
+        width: auto;
+        min-height: auto;
+    }
+    
+    #selection div .sel-btn{
+        background-color: orange;
+        color: #000;
+        padding: 10px;
+        align-self: center;
+        margin-top: 35px;
+        justify-content: flex-end;
+        transition: 500ms;
+    }
+    #form #submit{
+        width: 100px;
+        justify-self: center;
+        align-self: center;
+        height: 30px;
+        background-color: orange;
+        color: #fff;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 15px;
+        transition: 500ms;
+        padding: 5PX;
+    }
+    #nav-bar{
+        /* display: block; */
+    }
+    header #nav-bar #nav-bar-ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+    header #header-img{
+        width: 10px;
+    }
+    
+}
