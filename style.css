@@ -64,6 +64,10 @@ header{
     transition: 500ms;
 }
 
+#nav-bar{
+    position: fixed;
+    display: flex;
+}
 header #header-img{
     width: 300px;
 }
