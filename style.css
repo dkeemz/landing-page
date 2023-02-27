@@ -3,9 +3,11 @@
     background-color: #eee;
     
 }
-h3,h2{
+h2{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding-top: 80px;
 }
 #desc h3, #desc{
     text-align: left;
@@ -13,12 +15,10 @@ h3,h2{
     background-color: #eee;
     padding: 25PX;
 }
-.sel-btn{
-    background-color: orange;
-    color: #fff;
-    padding: 5px;
-}
+
 header{
+    position: fixed;
+    top: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -44,7 +44,7 @@ header{
     text-align: center;
 }
 #form #email::placeholder{
-    color:#fff;
+    /* color:#fff; */
 }
 #form #submit{
     width: 200px;
@@ -71,6 +71,7 @@ header #nav-bar #nav-bar-ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 490px;
 }
 header #nav-bar #nav-bar-ul .nav-link{
     display: flex;
@@ -108,6 +109,11 @@ a:hover{
     align-items: center;
 }
 
+section #iframe{
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+    background-color: #aaa;
+}
 section{
     padding: 10px;
     margin: 5px;
@@ -118,20 +124,40 @@ section{
     flex-direction: row;
     padding: 20px;
     margin: 5px;
+    width: 800px;
+    min-height: 200px;
 }
 #selection div{
+    display: flex;
+    flex-direction: column;
     border: 2px solid #aaa;
-    margin: 2px;
-    padding: 5px;
+    margin: 5px;
+    padding: 30px;
+    /* background-color: aqua; */
+}
+#selection div .sel-btn{
+    background-color: orange;
+    color: #000;
+    padding: 10px;
+    align-self: center;
+    margin-top: 35px;
+    justify-content: flex-end;
+    transition: 500ms;
+}
+#selection div .sel-btn:hover{
+    background-color: orangered;
+    color: #fff;
+    transition: 500ms;
 }
 #selection div h3:first-child{
     background-color: #aaa;
+    margin-bottom: 15px;
 }
 #footer{
     display: flex;
     flex-direction: column;
     background-color: #aaa;
-    width: 600px;
+    width: 760px;
     text-align: right;
     padding: 20px;
 }
@@ -147,11 +173,12 @@ section{
     /* padding: 10px; */
 }
 #footer ul li{
-    margin-top:10px ;
+    margin-top: 10px;
     text-decoration: none;
     list-style: none;
     
 }
 #footer ul li a{
     background-color: #aaa;
+    color: #000;
 }
